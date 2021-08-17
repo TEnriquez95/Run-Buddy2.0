@@ -28,7 +28,7 @@ header a {
 
 header nav {
     float: right;
-    margin: 7px;
+    margin: 7px 0;
 }
 
 header nav ul li {
@@ -44,7 +44,7 @@ header nav ul li a {
 footer {
     background: #fce138;
     width: 100%;
-    padding: 40 px 35px;
+    padding: 40px 35px;
 }
 
 footer h2 {
@@ -64,7 +64,9 @@ footer a {
     color: #024e76;
 }
 
-
+section {
+    padding: 60px;
+}
 
 /* Hero Style Start */
 .hero {
@@ -108,5 +110,13 @@ footer a {
 
 .hero-form label {
     margin: 0 5px;
+}
+
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
 }
 /* Hero Style End*/
